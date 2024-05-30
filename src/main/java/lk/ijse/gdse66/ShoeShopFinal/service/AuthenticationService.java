@@ -5,7 +5,7 @@ import lk.ijse.finalcoursework.shoeshop.auth.request.SignUpRequest;
 import lk.ijse.finalcoursework.shoeshop.auth.response.JWTAuthResponse;
 
 /**
- * @author: Vishal Sandakelum,
+ * @author: Dilshan Sandaruwan,
  * @Runtime version: 11.0.11+9-b1341.60 amd64
  **/
 
