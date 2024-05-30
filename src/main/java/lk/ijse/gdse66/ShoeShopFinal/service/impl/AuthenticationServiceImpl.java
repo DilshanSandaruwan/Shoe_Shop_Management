@@ -1,13 +1,10 @@
 package lk.ijse.gdse66.ShoeShopFinal.service.impl;
 
-import lk.ijse.finalcoursework.shoeshop.auth.request.SignInRequest;
-import lk.ijse.finalcoursework.shoeshop.auth.request.SignUpRequest;
-import lk.ijse.finalcoursework.shoeshop.auth.response.JWTAuthResponse;
-import lk.ijse.finalcoursework.shoeshop.dto.UserDTO;
-import lk.ijse.finalcoursework.shoeshop.persistence.entity.User;
-import lk.ijse.finalcoursework.shoeshop.persistence.repository.SecurityRepository;
-import lk.ijse.finalcoursework.shoeshop.service.AuthenticationService;
-import lk.ijse.finalcoursework.shoeshop.service.JWTService;
+import lk.ijse.gdse66.ShoeShopFinal.auth.request.SignInRequest;
+import lk.ijse.gdse66.ShoeShopFinal.auth.request.SignUpRequest;
+import lk.ijse.gdse66.ShoeShopFinal.auth.response.JWTAuthResponse;
+import lk.ijse.gdse66.ShoeShopFinal.dto.UserDTO;
+import lk.ijse.gdse66.ShoeShopFinal.persistence.entity.User;
 import lk.ijse.gdse66.ShoeShopFinal.persistence.repository.SecurityRepository;
 import lk.ijse.gdse66.ShoeShopFinal.service.AuthenticationService;
 import lk.ijse.gdse66.ShoeShopFinal.service.JWTService;
