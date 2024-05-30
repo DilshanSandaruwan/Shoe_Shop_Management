@@ -3,7 +3,7 @@ package lk.ijse.gdse66.ShoeShopFinal.dto;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
-import lk.ijse.finalcoursework.shoeshop.util.Category;
+import lk.ijse.gdse66.ShoeShopFinal.service.util.Category;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

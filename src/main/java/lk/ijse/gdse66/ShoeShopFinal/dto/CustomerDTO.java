@@ -3,13 +3,14 @@ package lk.ijse.gdse66.ShoeShopFinal.dto;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Null;
 import jakarta.validation.constraints.Pattern;
-import lk.ijse.finalcoursework.shoeshop.util.Gender;
-import lk.ijse.finalcoursework.shoeshop.util.Level;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
+import lk.ijse.gdse66.ShoeShopFinal.service.util.Gender;
+import lk.ijse.gdse66.ShoeShopFinal.service.util.Level;
 
 /**
  * @author: Dilshan Sandaruwan,
