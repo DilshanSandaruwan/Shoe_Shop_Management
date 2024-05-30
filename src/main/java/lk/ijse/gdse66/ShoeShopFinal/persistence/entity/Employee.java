@@ -1,6 +1,6 @@
 package lk.ijse.gdse66.ShoeShopFinal.persistence.entity;
-import lk.ijse.gdse66.ShoeShopFinal.service.util.Gender;
-import lk.ijse.gdse66.ShoeShopFinal.service.util.Role;
+import lk.ijse.gdse66.ShoeShopFinal.util.Gender;
+import lk.ijse.gdse66.ShoeShopFinal.util.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

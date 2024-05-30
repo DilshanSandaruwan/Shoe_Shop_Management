@@ -1,6 +1,6 @@
 package lk.ijse.gdse66.ShoeShopFinal.auth.request;
 
-import lk.ijse.gdse66.ShoeShopFinal.service.util.Role;
+import lk.ijse.gdse66.ShoeShopFinal.util.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

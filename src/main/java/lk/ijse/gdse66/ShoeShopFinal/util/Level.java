@@ -1,4 +1,4 @@
-package lk.ijse.gdse66.ShoeShopFinal.service.util;
+package lk.ijse.gdse66.ShoeShopFinal.util;
 
 /**
  * @author: Dilshan Sandaruwan,

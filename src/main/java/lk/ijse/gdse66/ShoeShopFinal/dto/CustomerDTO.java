@@ -9,8 +9,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
-import lk.ijse.gdse66.ShoeShopFinal.service.util.Gender;
-import lk.ijse.gdse66.ShoeShopFinal.service.util.Level;
+import lk.ijse.gdse66.ShoeShopFinal.util.Gender;
+import lk.ijse.gdse66.ShoeShopFinal.util.Level;
 
 /**
  * @author: Dilshan Sandaruwan,
