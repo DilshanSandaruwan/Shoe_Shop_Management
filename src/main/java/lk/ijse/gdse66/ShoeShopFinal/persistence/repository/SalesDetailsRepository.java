@@ -1,6 +1,5 @@
 package lk.ijse.gdse66.ShoeShopFinal.persistence.repository;
 
-import lk.ijse.finalcoursework.shoeshop.persistence.entity.SalesDetails;
 import lk.ijse.gdse66.ShoeShopFinal.persistence.entity.SalesDetails;
 import org.springframework.data.jpa.repository.JpaRepository;
 
