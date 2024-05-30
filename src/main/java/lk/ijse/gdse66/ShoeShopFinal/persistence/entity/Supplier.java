@@ -1,7 +1,7 @@
 package lk.ijse.gdse66.ShoeShopFinal.persistence.entity;
 
 import jakarta.persistence.*;
-import lk.ijse.finalcoursework.shoeshop.util.Category;
+import lk.ijse.gdse66.ShoeShopFinal.service.util.Category;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,6 +1,5 @@
 package lk.ijse.gdse66.ShoeShopFinal.service;
 
-import lk.ijse.finalcoursework.shoeshop.dto.CustomerDTO;
 import lk.ijse.gdse66.ShoeShopFinal.dto.CustomerDTO;
 
 import java.util.List;

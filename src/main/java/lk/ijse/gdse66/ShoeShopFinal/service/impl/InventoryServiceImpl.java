@@ -1,15 +1,12 @@
 package lk.ijse.gdse66.ShoeShopFinal.service.impl;
 
-import lk.ijse.finalcoursework.shoeshop.dto.InventoryDTO;
-import lk.ijse.finalcoursework.shoeshop.persistence.entity.Inventory;
-import lk.ijse.finalcoursework.shoeshop.persistence.repository.InventoryRepository;
-import lk.ijse.finalcoursework.shoeshop.service.InventoryService;
-import lk.ijse.finalcoursework.shoeshop.service.execption.DublicateRecordException;
-import lk.ijse.finalcoursework.shoeshop.service.execption.NotFoundException;
+
 import lk.ijse.gdse66.ShoeShopFinal.dto.InventoryDTO;
 import lk.ijse.gdse66.ShoeShopFinal.persistence.entity.Inventory;
 import lk.ijse.gdse66.ShoeShopFinal.persistence.repository.InventoryRepository;
 import lk.ijse.gdse66.ShoeShopFinal.service.InventoryService;
+import lk.ijse.gdse66.ShoeShopFinal.service.execption.DublicateRecordException;
+import lk.ijse.gdse66.ShoeShopFinal.service.execption.NotFoundException;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

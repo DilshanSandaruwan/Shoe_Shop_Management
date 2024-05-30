@@ -1,6 +1,5 @@
 package lk.ijse.gdse66.ShoeShopFinal.service;
 
-import lk.ijse.finalcoursework.shoeshop.dto.UserDTO;
 import lk.ijse.gdse66.ShoeShopFinal.dto.UserDTO;
 import org.springframework.security.core.userdetails.UserDetailsService;
 

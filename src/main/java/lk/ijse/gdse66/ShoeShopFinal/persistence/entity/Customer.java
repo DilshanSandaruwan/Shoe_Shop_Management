@@ -1,14 +1,13 @@
 package lk.ijse.gdse66.ShoeShopFinal.persistence.entity;
 
 import jakarta.persistence.*;
-import lk.ijse.finalcoursework.shoeshop.util.Gender;
-import lk.ijse.finalcoursework.shoeshop.util.Level;
+import lk.ijse.gdse66.ShoeShopFinal.service.util.Gender;
+import lk.ijse.gdse66.ShoeShopFinal.service.util.Level;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
-import java.util.logging.Level;
 
 /**
  * @author: Dilshan Sandaruwan,

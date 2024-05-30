@@ -1,8 +1,5 @@
 package lk.ijse.gdse66.ShoeShopFinal.service;
 
-import lk.ijse.finalcoursework.shoeshop.auth.request.SignInRequest;
-import lk.ijse.finalcoursework.shoeshop.auth.request.SignUpRequest;
-import lk.ijse.finalcoursework.shoeshop.auth.response.JWTAuthResponse;
 
 /**
  * @author: Dilshan Sandaruwan,

@@ -1,15 +1,11 @@
 package lk.ijse.gdse66.ShoeShopFinal.service.impl;
 
-import lk.ijse.finalcoursework.shoeshop.dto.UserDTO;
-import lk.ijse.finalcoursework.shoeshop.persistence.entity.User;
-import lk.ijse.finalcoursework.shoeshop.persistence.repository.UserRepository;
-import lk.ijse.finalcoursework.shoeshop.service.UserService;
-import lk.ijse.finalcoursework.shoeshop.service.execption.DublicateRecordException;
-import lk.ijse.finalcoursework.shoeshop.service.execption.NotFoundException;
 import lk.ijse.gdse66.ShoeShopFinal.dto.UserDTO;
 import lk.ijse.gdse66.ShoeShopFinal.persistence.entity.User;
 import lk.ijse.gdse66.ShoeShopFinal.persistence.repository.UserRepository;
 import lk.ijse.gdse66.ShoeShopFinal.service.UserService;
+import lk.ijse.gdse66.ShoeShopFinal.service.execption.DublicateRecordException;
+import lk.ijse.gdse66.ShoeShopFinal.service.execption.NotFoundException;
 import org.modelmapper.ModelMapper;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -69,6 +65,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void updateUser(String email, UserDTO userDTO) {
+
         User existingUser = userRepository.findByEmailAndRole(email, String.valueOf(userDTO.getRole()));
 
         if(existingUser.getPassword().isEmpty()){

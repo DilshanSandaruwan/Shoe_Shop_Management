@@ -10,6 +10,7 @@ import lk.ijse.finalcoursework.shoeshop.service.AuthenticationService;
 import lk.ijse.finalcoursework.shoeshop.service.JWTService;
 import lk.ijse.gdse66.ShoeShopFinal.persistence.repository.SecurityRepository;
 import lk.ijse.gdse66.ShoeShopFinal.service.AuthenticationService;
+import lk.ijse.gdse66.ShoeShopFinal.service.JWTService;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.security.authentication.AuthenticationManager;
